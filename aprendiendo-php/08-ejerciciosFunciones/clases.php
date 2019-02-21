@@ -53,8 +53,25 @@ echo '<br>';
 echo time();
 echo '<hr>';
 //Arrays
+$peliculas = array('Batman', 'Spiderman', 'El señor de los anillos');
+$peliculas2 = ['Nice', 'nope', 'probando el array usando []'];
+var_dump($peliculas);
 
-
+//Recorrer el Array con for
+for ($i = 0; $i < count($peliculas2); $i++){
+    echo "<li>".$peliculas2[$i]."</li>";
+}
+//Recorrer Array con foreach
+foreach ($peliculas as $peli) {
+    echo '<li>'.$peli.'</li>';
+}
+//Array asociativo
+$personas = array(
+    'nombre' => 'Varox',
+    'Web' => 'xorav.xyz'
+);
+var_dump($personas);
+echo $personas['nombre'];
 //include
 //incluyes un fragmento en tu pagina
 //require
