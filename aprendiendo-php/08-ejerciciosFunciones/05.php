@@ -36,4 +36,7 @@ $categorias = array_keys($arrayMejor);
             <th><?= $categoria ?></th>
         <?php endforeach; ?>
     </tr>
+    <tr>
+
+    </tr>
 </table>

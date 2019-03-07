@@ -11,58 +11,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/01.php">
+        <entry file="file://$PROJECT_DIR$/aprendiendo-php/09-PHP Moderno/01-Sesiones/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/02.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/03.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/04.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="289">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/05.php">
+        <entry file="file://$PROJECT_DIR$/aprendiendo-php/09-PHP Moderno/01-Sesiones/pagina1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/clases.php">
+        <entry file="file://$PROJECT_DIR$/aprendiendo-php/09-PHP Moderno/01-Sesiones/logout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+            <state relative-caret-position="170">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -91,6 +61,10 @@
         <option value="$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/03.php" />
         <option value="$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/04.php" />
         <option value="$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/05.php" />
+        <option value="$PROJECT_DIR$/aprendiendo-php/09-PHP Moderno/01.php" />
+        <option value="$PROJECT_DIR$/aprendiendo-php/09-PHP Moderno/01-Sesiones/index.php" />
+        <option value="$PROJECT_DIR$/aprendiendo-php/09-PHP Moderno/01-Sesiones/logout.php" />
+        <option value="$PROJECT_DIR$/aprendiendo-php/09-PHP Moderno/01-Sesiones/pagina1.php" />
       </list>
     </option>
   </component>
@@ -105,7 +79,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,18 +95,20 @@
               <item name="Master-Php-Udemy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Master-Php-Udemy" type="462c0819:PsiDirectoryNode" />
               <item name="aprendiendo-php" type="462c0819:PsiDirectoryNode" />
-              <item name="07-ejercicios" type="462c0819:PsiDirectoryNode" />
+              <item name="09-PHP Moderno" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Master-Php-Udemy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Master-Php-Udemy" type="462c0819:PsiDirectoryNode" />
               <item name="aprendiendo-php" type="462c0819:PsiDirectoryNode" />
-              <item name="08-ejerciciosFunciones" type="462c0819:PsiDirectoryNode" />
+              <item name="09-PHP Moderno" type="462c0819:PsiDirectoryNode" />
+              <item name="01-Sesiones" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,18 +142,19 @@
       <workItem from="1549299169550" duration="3765000" />
       <workItem from="1550647943315" duration="1771000" />
       <workItem from="1550751799959" duration="1661000" />
-      <workItem from="1551287787297" duration="1850000" />
+      <workItem from="1551287787297" duration="1915000" />
+      <workItem from="1551428833971" duration="1087000" />
+      <workItem from="1551860640653" duration="537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10429000" />
+    <option name="totallyTimeSpent" value="12118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31397173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3343799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -281,17 +257,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aprendiendo-php/09-PHP Moderno/01.php" />
     <entry file="file://$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/01.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
+        <state relative-caret-position="527">
           <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/clases.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -318,11 +288,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/05.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="578">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aprendiendo-php/08-ejerciciosFunciones/clases.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aprendiendo-php/09-PHP Moderno/01-Sesiones/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aprendiendo-php/09-PHP Moderno/01-Sesiones/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aprendiendo-php/09-PHP Moderno/01-Sesiones/pagina1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
