@@ -29,8 +29,14 @@
         <label for="fecha">Fecha: </label>
         <input type="date" name="fecha" required> <br>
 
-        <label for="color">Color: </label>
-        <input type="color" name="color" required> <br>
+        <textarea name="hola" id="" cols="30" rows="10"></textarea>
+
+        Peliculas
+        <select name="" id="">
+            <option value="">Spiderman</option>
+            <option value="">Batman</option>
+            <option value="">Jey</option>
+        </select>
 
         <input type="submit" value="Enviar">
     </form>
