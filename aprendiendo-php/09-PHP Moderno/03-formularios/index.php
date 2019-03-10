@@ -15,6 +15,23 @@
         <input type="text" name="nombre" autofocus="autofocus" required> <br>
         <label for="apellido">Apellido: </label>
         <input type="text" name="apellido" maxlength="20" minlength="3" required> <br>
+
+        <label for="boton">Boton: </label>
+        <input type="button" name="boton" value="clickame" required> <br>
+
+        <label for="gender">Sexo: </label>
+        <input type="checkbox" name="gender" value="Hombre" required>
+        <input type="checkbox" name="gender" value="Mujer" required> <br>
+
+        <label for="color">Color: </label>
+        <input type="color" name="color" required> <br>
+
+        <label for="fecha">Fecha: </label>
+        <input type="date" name="fecha" required> <br>
+
+        <label for="color">Color: </label>
+        <input type="color" name="color" required> <br>
+
         <input type="submit" value="Enviar">
     </form>
 </body>
