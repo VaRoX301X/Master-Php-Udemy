@@ -9,19 +9,27 @@
 </head>
 <body>
     <h1>Validar formularios en PHP</h1>
-
+    <?php
+        if (isset($_GET['error'])){
+            $error = $_GET['error'];
+            if ($error == 'faltan_datos'){
+                echo '<strong style="color:red">Rellena todos los datos del formulario</strong>';
+            }
+        }
+    ?>
     <form action="procesar_formulario.php" method="post">
         <label for="nombre">Nombre</label>
         <input type="text" name="nombre" required pattern="[A-Za-z]+"> <br>
         <label for="apellidos">apellidos</label>
         <input type="text" name="apellidos" required pattern="[A-Za-z]+"> <br>
         <label for="edad">edad</label>
-        <input type="number" name="edad" required pattern="[0-9]+"> <br>
+        <input type="number" name="edad" pattern="[0-9]+"> <br>
         <label for="email">email</label>
         <input type="email" name="email" required> <br>
         <label for="pass">contraseña</label>
         <input type="password" name="pass" required> <br>
         <input type="submit"  value="enviar">
+
     </form>
 </body>
 </html>
