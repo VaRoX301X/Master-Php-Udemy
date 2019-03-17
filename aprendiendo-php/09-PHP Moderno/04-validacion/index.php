@@ -25,7 +25,7 @@
         <label for="edad">edad</label>
         <input type="number" name="edad" pattern="[0-9]+"> <br>
         <label for="email">email</label>
-        <input type="email" name="email" required> <br>
+        <input type="text" name="email" required> <br>
         <label for="pass">contraseña</label>
         <input type="password" name="pass" required> <br>
         <input type="submit"  value="enviar">

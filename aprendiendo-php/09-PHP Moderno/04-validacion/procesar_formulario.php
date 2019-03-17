@@ -1,5 +1,5 @@
 <?php
-if(empty($_POST['nombre'])&&empty($_POST['apellidos'])&&empty($_POST['edad'])&&empty($_POST['email'])&&empty($_POST['pass'])){
+if(!empty($_POST['nombre'])&&!empty($_POST['apellidos'])&&!empty($_POST['edad'])&&!empty($_POST['email'])&&!empty($_POST['pass'])){
     $error = 'ok';
 
     $nombre = $_POST['nombre'];
@@ -22,5 +22,11 @@ if(empty($_POST['nombre'])&&empty($_POST['apellidos'])&&empty($_POST['edad'])&&e
     <title>Validacion</title>
 </head>
 <body>
+    <?php if($error == 'ok'): ?>
+        <p><?= $nombre ?></p>
+        <p><?= $apellidos?></p>
+        <p><?= $edad?></p>
+        <p><?= $email?></p>
+    <?php endif; ?>
 </body>
 </html>
