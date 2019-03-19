@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fff071d6-204c-4c98-ab8d-b6a82917207f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-PHP Moderno/04-validacion/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/09-PHP Moderno/04-validacion/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-PHP Moderno/04-validacion/procesar_formulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/09-PHP Moderno/04-validacion/procesar_formulario.php" afterDir="false" />
-    </list>
+    <list default="true" id="fff071d6-204c-4c98-ab8d-b6a82917207f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +13,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/09-PHP Moderno/04-validacion/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="522">
               <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#strong#0;n#!!top" expanded="true" />
@@ -259,7 +255,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/09-PHP Moderno/04-validacion/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="522">
           <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#strong#0;n#!!top" expanded="true" />
