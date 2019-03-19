@@ -10,38 +10,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-PHP Moderno/05-ficheros/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/09-PHP Moderno/06-directorios/index.php">
+        <entry file="file://$PROJECT_DIR$/09-PHP Moderno/07-subidas/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="340">
+              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-PHP Moderno/06-directorios/mi_carpeta/holaMundo.txt">
+        <entry file="file://$PROJECT_DIR$/09-PHP Moderno/07-subidas/upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-PHP Moderno/05-ficheros/fichero.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="272">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -76,6 +58,8 @@
         <option value="$PROJECT_DIR$/09-PHP Moderno/05-ficheros/index.php" />
         <option value="$PROJECT_DIR$/09-PHP Moderno/06-directorios/mi_carpeta/holaMundo.txt" />
         <option value="$PROJECT_DIR$/09-PHP Moderno/06-directorios/index.php" />
+        <option value="$PROJECT_DIR$/09-PHP Moderno/07-subidas/upload.php" />
+        <option value="$PROJECT_DIR$/09-PHP Moderno/07-subidas/index.php" />
       </list>
     </option>
   </component>
@@ -112,6 +96,19 @@
               <item name="aprendiendo-php" type="462c0819:PsiDirectoryNode" />
               <item name="09-PHP Moderno" type="462c0819:PsiDirectoryNode" />
               <item name="06-directorios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aprendiendo-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aprendiendo-php" type="462c0819:PsiDirectoryNode" />
+              <item name="09-PHP Moderno" type="462c0819:PsiDirectoryNode" />
+              <item name="07-subidas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aprendiendo-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aprendiendo-php" type="462c0819:PsiDirectoryNode" />
+              <item name="09-PHP Moderno" type="462c0819:PsiDirectoryNode" />
+              <item name="07-subidas" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,12 +148,12 @@
       <workItem from="1549026269502" duration="3257000" />
       <workItem from="1552818614089" duration="2980000" />
       <workItem from="1552849431279" duration="612000" />
-      <workItem from="1552984198180" duration="1545000" />
+      <workItem from="1552984198180" duration="2861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9427000" />
+    <option name="totallyTimeSpent" value="10743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -274,10 +271,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-PHP Moderno/05-ficheros/fichero.txt">
+    <entry file="file://$PROJECT_DIR$/09-PHP Moderno/05-ficheros/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -288,17 +285,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-PHP Moderno/05-ficheros/index.php">
+    <entry file="file://$PROJECT_DIR$/09-PHP Moderno/05-ficheros/fichero.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="1" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/09-PHP Moderno/06-directorios/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-PHP Moderno/07-subidas/images/61269.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-PHP Moderno/07-subidas/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-PHP Moderno/07-subidas/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
         </state>
       </provider>
     </entry>
