@@ -1,3 +1,9 @@
+CREATE TABLE Categorias(
+    id int(10) auto_increment not null,
+    nombre varchar(100),
+    constraint pk_categorias PRIMARY KEY(id)
+)ENGINE=InnoDb;
+
 CREATE TABLE Usuarios(
     id int(10) auto_increment not null,
     nombre varchar(50) not null,
@@ -21,11 +27,7 @@ CREATE TABLE Entradas(
     constraint fk_entrada_categoria FOREIGN KEY(categoria_id) references categorias(id)
 )ENGINE=InnoDb;
 
-CREATE TABLE Categorias(
-    id int(10) auto_increment not null,
-    nombre varchar(100),
-    constraint pk_categorias PRIMARY KEY(id)
-)ENGINE=InnoDb;
+
 
 /*
 on delete no action
