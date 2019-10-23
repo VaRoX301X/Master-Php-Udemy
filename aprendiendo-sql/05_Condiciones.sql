@@ -1,0 +1,39 @@
+#CONSULTA CON UNA CONDICION#
+SELECT * FROM usuarios WHERE email = 'e@e.e';
+
+/* OPERADORES DE COMPARACION
+IGUAL =
+DISTINTO !=
+MENOR <
+MAYOR >
+MENOR O IGUAL <=
+MAYOR O IGUAL >=
+ENTRE between A and B
+EN in
+ES NULO is null
+NO NULO is not null
+COMO like
+NO ES COMO not like
+*/
+
+#EJEMPLOS#
+SELECT nombre, apellidos FROM usuarios WHERE YEAR(fecha) = 2019
+
+#----WHERE Y COMODINES----#
+/* OPERADORES LOGICOS
+O OR
+Y AND
+NO NOT
+*/
+
+/* COMODINES
+CUALQUIER CANTIDAD DE CARACTERES: %
+UN CARACTER DESCONOCIDO: _
+*/
+SELECT email FROM usuarios WHERE apellidos LIKE '%a%' AND password = 123456;
+
+
+/*
+LIMIT N
+ORDER BY XXX ASC/DESC
+*/
