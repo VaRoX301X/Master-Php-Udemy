@@ -21,6 +21,7 @@ function borrarErrores(){
         unset($_SESSION['completado']);
         echo '<script>console.log("sesion_completado borrado");</script>';
     }   
+ 
 }
 
 function conseguirCategorias($conexion) {

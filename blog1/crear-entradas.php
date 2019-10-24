@@ -15,8 +15,14 @@
     <form action="guardar-entrada.php" method="POST">
         <label for="titulo">Titulo de la entrada:</label>
         <input type="text" name="titulo"/>
+        <?php if (isset($_SESSION['errores_entrada'])): ?>
+        <?php echo mostrarError($_SESSION['errores_entrada'], 'titulo'); ?>
+        <?php endif;?>
         <label for="descripcion">Descripción de la entrada:</label>
         <textarea type="text" name="descripcion" style="width:97.5%; height:75px"></textarea>
+        <?php if (isset($_SESSION['errores_entrada'])): ?>
+        <?php echo mostrarError($_SESSION['errores_entrada'], 'descripcion'); ?>
+        <?php endif;?>
         <label for="categoria">Categoria de la entrada: </label>
         <select name="categoria">
             <?php 
@@ -31,6 +37,9 @@
                 endif;            
             ?>
         </select>
+        <?php if (isset($_SESSION['errores_entrada'])): ?>
+        <?php echo mostrarError($_SESSION['errores_entrada'], 'categoria'); ?>
+        <?php endif;?>
         <input type="submit" value="Guardar">
     </form>
 </div>
