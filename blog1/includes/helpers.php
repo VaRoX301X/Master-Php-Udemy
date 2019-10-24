@@ -12,15 +12,18 @@ function mostrarError($errores, $campo){
 function borrarErrores(){
     if(isset($_SESSION['errores'])){
         $_SESSION['errores'] = null;
-        unset($_SESSION['errores']);
         echo '<script>console.log("sesion_errores borrado");</script>';
     }
 
     if(isset($_SESSION['completado'])){
         $_SESSION['completado'] = null;
-        unset($_SESSION['completado']);
         echo '<script>console.log("sesion_completado borrado");</script>';
     }   
+
+    if (isset($_SESSION["errores_entrada"])) {
+        $_SESSION["errores_entrada"] = null;
+        echo '<script>console.log("sesion_errores_entrada borrado");</script>';
+    }
  
 }
 

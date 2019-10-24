@@ -42,6 +42,7 @@
         <?php endif;?>
         <input type="submit" value="Guardar">
     </form>
+    <?php borrarErrores();?>
 </div>
 
 <?php require_once './includes/pie.php'; ?>
