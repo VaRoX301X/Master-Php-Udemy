@@ -11,29 +11,28 @@
             <a href="#" class="boton boton-verde">Crear categoría</a>
         </div>
     <?php endif ?>
-    <div id="login" class="bloque">
-        <h3>Identificate</h3>
 
-        <?php if(isset($_SESSION['error_login'])): ?>
-        <div class="alerta alerta-error">
-            <?= $_SESSION['error_login']; ?>
+
+    <?php if(!isset($_SESSION['usuario'])): ?>
+        <div id="login" class="bloque">
+            <h3>Identificate</h3>
+            <?php if(isset($_SESSION['error_login'])): ?>
+                <div class="alerta alerta-error">
+                    <?= $_SESSION['error_login']; ?>
+                </div>        
+            <?php endif ?>        
+            <form action="login.php" method="POST">
+                <label for="email">Email</label>
+                <input type="text" name="email">
+
+                <label for="password">Contraseña</label>
+                <input type="password" name="password">
+
+                <input type="submit" value="Entrar">
+            </form>
+            
         </div>
-        
-        <?php endif ?>
-
-
-
-
-        <form action="login.php" method="POST">
-            <label for="email">Email</label>
-            <input type="text" name="email">
-
-            <label for="password">Contraseña</label>
-            <input type="password" name="password">
-
-            <input type="submit" value="Entrar">
-        </form>
-    </div>
+    <?php endif ?>
     <div id="register" class="bloque">
 
 
