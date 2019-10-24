@@ -17,9 +17,13 @@
         ?>
         
         <article class="entrada">
-            <h2><?=$entrada['titulo']?></h2>
-            <span class="fecha"><?=$entrada['categoria']." | ".$entrada['fecha']?></span>
-            <p><?= substr($entrada['descripcion'],0,180)."..." ?></p>
+            <a href="entrada.php?id=<?=$entrada['id']?>">
+                <h2><?=$entrada['titulo']?></h2>
+                <span class="fecha"><?=$entrada['categoria'].' | '.$entrada['fecha']?></span>
+                <p>
+                    <?= substr($entrada['descripcion'],0, 180)."..."?>
+                </p>
+            </a>
         </article>
         <?php
                 endwhile;

@@ -72,3 +72,20 @@ function conseguirEntradas($conexion, $limit = null, $categoria = null, $busqued
     }
     return $entradas;
 }
+
+function conseguirEntrada($conexion, $id){
+    $sql = "SELECT e.*, c.nombre AS 'categoria', CONCAT(u.nombre, ' ', u.apellidos) AS usuario "
+            . "FROM entradas e ".
+            "INNER JOIN categorias c ON e.categoria_id = c.id ".
+            "INNER JOIN usuarios u ON e.usuario_id = u.id ".
+            "WHERE e.id = $id";
+    
+    $entrada = mysqli_query($conexion, $sql);
+    
+    $resultado = array();
+    if($entrada && mysqli_num_rows($entrada)>=1){
+        $resultado = mysqli_fetch_assoc($entrada);
+    }
+    
+    return $resultado;
+}
