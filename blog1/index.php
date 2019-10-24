@@ -10,14 +10,25 @@
     <!-- Caja principal -->
     <div id="principal">
         <h1>Ultimas entradas</h1>
+        <?php 
+            $entradas = conseguirUltimasEntradas($db);
+            if(!empty($entradas)):
+                while($entrada = mysqli_fetch_assoc($entradas)): 
+        ?>
+        
         <article class="entrada">
-            <h2>Titulo de mi entrada</h2>
-            <p>Spicy jalapeno bacon ipsum dolor amet pig strip steak ham hock pancetta pork loin kielbasa brisket doner tail. Jerky doner porchetta kielbasa leberkas. Short ribs brisket shoulder hamburger cupim tenderloin tongue beef bresaola rump landjaeger pork belly spare ribs. Short loin meatball shank, shoulder venison andouille prosciutto bacon ham hock shankle. Ground round strip steak buffalo swine jerky capicola sausage ham hock beef ribs spare ribs salami beef.</p>
+            <h2><?=$entrada['titulo']?></h2>
+            <p><?= substr($entrada['descripcion'],0,180)."..." ?></p>
         </article>
-    </div>
-    <div id="ver-todas">
+        <?php
+                endwhile;
+            endif;   
+        ?>
+        <div id="ver-todas">
         <a href="">Ver todas las entradas</a>
     </div>
+    </div>
+    
     
 <?php include 'includes/pie.php' ?>
 
