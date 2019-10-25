@@ -1,7 +1,6 @@
 <?php 
 
 
-
 if(isset($_POST)){
 
     require_once 'includes/conexion.php';
@@ -18,7 +17,7 @@ if(isset($_POST)){
     $password = isset($_POST['password']) ? mysqli_real_escape_string($db, $_POST['password']): false;
 
     //Validar los datos antes de guardarlos en la base de datos
-
+    $errores = array();
     //Validar campo NOMBRE
     if(!empty($nombre) && !is_numeric($nombre) && !preg_match("/[0-9]/", $nombre)){
         echo 'El nombre es valido';
@@ -67,7 +66,9 @@ if(isset($_POST)){
         //INSERTAR USUARIO EN LA TABLA DE USUARIOS DE LA BBDD
         $sql = "INSERT INTO usuarios VALUES(null, '$nombre', '$apellidos','$email','$password_segura', CURDATE())";
         $guardar = mysqli_query($db, $sql);
-
+        echo mysqli_error($db);
+        var_dump($guardar);
+        die();
         if($guardar){
             $_SESSION['completado'] = 'El registro se ha completado con exito';
         } else {
