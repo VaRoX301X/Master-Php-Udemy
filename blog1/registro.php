@@ -66,9 +66,6 @@ if(isset($_POST)){
         //INSERTAR USUARIO EN LA TABLA DE USUARIOS DE LA BBDD
         $sql = "INSERT INTO usuarios VALUES(null, '$nombre', '$apellidos','$email','$password_segura', CURDATE())";
         $guardar = mysqli_query($db, $sql);
-        echo mysqli_error($db);
-        var_dump($guardar);
-        die();
         if($guardar){
             $_SESSION['completado'] = 'El registro se ha completado con exito';
         } else {

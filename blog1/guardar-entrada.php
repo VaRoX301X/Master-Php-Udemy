@@ -2,7 +2,7 @@
 if (isset($_POST)) {
     //Conexion a la BD
     require_once 'includes/conexion.php';
-    
+    $usuario_id = $_SESSION['usuario']['id'];
     $titulo = isset($_POST['titulo']) ? mysqli_escape_string($db, $_POST['titulo']) : false;
     $descripcion = isset($_POST['descripcion']) ? mysqli_escape_string($db, $_POST['descripcion']) : false;
     $id_categoria = isset($_POST['categoria']) ? (int)$_POST['categoria'] : false;
@@ -30,12 +30,11 @@ if (isset($_POST)) {
     
     if (count($errores) == 0) {
         if (isset($_GET['editar'])) {
-            $entrada_id = $_GET['editar'];
-            $usuario_id = $_SESSION['usuario']['id'];
+            $entrada_id = $_GET['editar'];            
             $sql = "UPDATE entradas SET titulo='$titulo', descripcion='$descripcion', categoria_id=$id_categoria " .
                     " WHERE id= $entrada_id AND usuario_id = $usuario_id";
         } else {
-            $sql = "INSERT INTO entradas VALUES(null, $usuario, $id_categoria, '$titulo', '$descripcion', CURDATE());";
+            $sql = "INSERT INTO entradas VALUES(null, $usuario_id, $id_categoria, '$titulo', '$descripcion', CURDATE());";
         }
         $guardar = mysqli_query($db, $sql);
         header("Location: index.php");
