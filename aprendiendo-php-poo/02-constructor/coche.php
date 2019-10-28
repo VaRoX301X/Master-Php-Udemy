@@ -2,9 +2,14 @@
 class Coche {
     // Atributos o propiedades (variables)
     // Es una mala practica definir valores por definicion
+
+    //Public - podemos acceder desde cualquier lugar, dentro o fuera de la clase actaul
+    // o dentro de clases que hereden de esta 
     public $color;
-    public $marca;
-    public $modelo;
+    //Protected - Podemos acceder desde la clase que los define y desde clases que hereden
+    protected $marca;
+    //Private - unicamente se puede acceder desde esta clase
+    private $modelo;
     public $velocidad;
     public $caballaje;
     public $plazas;
@@ -46,6 +51,13 @@ class Coche {
 
     public function setModelo($modelo){
         $this -> modelo = $modelo;
+    }
+    public function getModelo(){
+        return $this -> modelo;
+    }
+
+    public function setMarca($marca){
+        $this -> marca = $marca;
     }
 
 
