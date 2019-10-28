@@ -14,3 +14,6 @@ $coche0 -> color = "Purpura";
 $coche0 -> setMarca("BMW");
 // private
 echo $coche0 -> getModelo();
+
+
+echo $coche0 -> mostrarInformacion($coche0);

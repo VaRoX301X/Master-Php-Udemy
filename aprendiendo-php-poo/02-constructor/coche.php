@@ -60,5 +60,18 @@ class Coche {
         $this -> marca = $marca;
     }
 
+    // Indicamos que tipo de dato se pasa por la funcion (Coche $miObjeto)
+    public function mostrarInformacion(Coche $miObjeto){
+        $informacion = "<h1>Información del coche</h1>";
+        $informacion .= "<br>Color: ".$miObjeto->color;
+        $informacion .= "<br>Marca: ".$miObjeto->marca;
+        $informacion .= "<br>Modelo: ".$miObjeto->modelo;
+        $informacion .= "<br>velocidad: ".$miObjeto->velocidad;        
+        $informacion .= "<br>Caballaje: ".$miObjeto->caballaje;
+        $informacion .= "<br>Plazas: ".$miObjeto->plazas;
+
+        return $informacion;
+
+    }
 
 } // Fin definicion de la clase
