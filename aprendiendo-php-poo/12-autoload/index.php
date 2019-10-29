@@ -85,11 +85,23 @@ class Principal {
         $this->categoria = new Categoria();
         $this->entrada = new \MisClases\Entrada();
     }
+
+    public function informacion(){
+        echo __CLASS__;
+        echo "<br>";
+        echo __METHOD__;
+        echo "<br>";
+        echo __FILE__;
+    }
 }
 $principal = new Principal();
 var_dump($principal);
 $usuario = new userAdmin();
 var_dump($usuario);
+
+echo "<br>";
+echo $principal -> informacion();
+echo "<br>";
 
 
 // Ver los metodos que existen
