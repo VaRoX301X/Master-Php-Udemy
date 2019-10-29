@@ -85,6 +85,13 @@ class Persona {
 class Informatico extends Persona{
 
     private $lenguajes;
+    private $experienciaProgamador;
+
+    public function __construct()
+    {
+        $this->lenguajes = "Html, Css, Js";
+        $this->experienciaProgamador = 10;
+    }
 
     /**
      * @return mixed
@@ -114,7 +121,18 @@ class Informatico extends Persona{
 }
 
 class tecnicoRedes extends Informatico{
-    public $auditarRedes = false;
+    public $auditarRedes;
+    public $experienciaRedes;
+
+    public function __construct()
+    {
+        // Llama de manera estatica al metodo construct
+        parent::__construct();
+
+        $this->auditarRedes = false;
+        $this->experienciaRedes = 5;
+    }
+
     public function auditaRedes(){
         $this -> auditarRedes = !($this->auditarRedes);
     }
