@@ -1,5 +1,5 @@
 <?php
-
+namespace MisClases;
 class Categoria {
     public $nombre;
     public $descripcion;
