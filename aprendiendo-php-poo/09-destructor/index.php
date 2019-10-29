@@ -6,8 +6,15 @@ class Usuario {
 
     public function __construct()
     {
+        $this->nombre = "Alvaro";
+        $this->email = "email";
         echo "<br>Instancia del objeto creada";
     }
+    public function __toString()
+    {
+        return "<br>Hola, ".$this->nombre." estas registrado con ".$this->email;
+    }
+
     public function __destruct()
     {
         echo "<br>Destruyendo el objeto";
@@ -16,8 +23,7 @@ class Usuario {
 }
 
 $usuario = new Usuario();
+echo $usuario;
 
-for($i=0;$i<=200;$i++) {
-    echo "<br>$i";
-}
+
 

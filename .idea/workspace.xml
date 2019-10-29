@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3f7fbac-6fd7-47b3-89f7-f29752dbc09d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprendiendo-php-poo/09-destructor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-poo/09-destructor/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       <workItem from="1549299169550" duration="3765000" />
       <workItem from="1549559270576" duration="1061000" />
       <workItem from="1572357946975" duration="120000" />
-      <workItem from="1572358079008" duration="4266000" />
+      <workItem from="1572358079008" duration="4443000" />
     </task>
     <servers />
   </component>
