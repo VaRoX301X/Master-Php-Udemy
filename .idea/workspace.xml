@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3f7fbac-6fd7-47b3-89f7-f29752dbc09d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aprendiendo-php-poo/10-call/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-poo/10-call/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +33,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\masterPHP\aprendiendo-php-poo\12-autoload\clases" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -60,7 +64,7 @@
       <workItem from="1549299169550" duration="3765000" />
       <workItem from="1549559270576" duration="1061000" />
       <workItem from="1572357946975" duration="120000" />
-      <workItem from="1572358079008" duration="5873000" />
+      <workItem from="1572358079008" duration="6455000" />
     </task>
     <servers />
   </component>
