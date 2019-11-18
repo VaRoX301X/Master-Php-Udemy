@@ -1,7 +1,6 @@
 <h1>Bienvenido</h1>
 <?php
-    require_once 'controllers/UsuarioController.php';
-    require_once 'controllers/NotaController.php';
+    require_once 'autoload.php';
 
 
 if (isset($_GET['controller'])){
