@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3f7fbac-6fd7-47b3-89f7-f29752dbc09d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/controllers/usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/controllers/UsuarioController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/models/usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/models/usuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprendiendo-php-poo/12-autoload/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-poo/12-autoload/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +35,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.mallowigi.config" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -70,6 +73,11 @@
       <workItem from="1572460429393" duration="329000" />
       <workItem from="1572460938253" duration="41000" />
       <workItem from="1572461002782" duration="1842000" />
+      <workItem from="1572973740127" duration="82000" />
+      <workItem from="1572973844468" duration="49000" />
+      <workItem from="1572974611506" duration="83000" />
+      <workItem from="1572974708045" duration="52000" />
+      <workItem from="1574064566847" duration="1846000" />
     </task>
     <servers />
   </component>
