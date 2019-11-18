@@ -7,6 +7,10 @@ class Usuario extends ModeloBase {
     public $email;
     public $password;
 
+    public function __construct() {
+        parent::__construct();
+    }
+
     /**
      * @return mixed
      */
