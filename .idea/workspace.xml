@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b3f7fbac-6fd7-47b3-89f7-f29752dbc09d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/controllers/NotaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/controllers/NotaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/controllers/UsuarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/controllers/UsuarioController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/models/ModeloBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/models/ModeloBase.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/models/nota.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/models/nota.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/models/usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/models/usuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/views/nota/listar.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/views/nota/listar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/views/usuarios/mostrar-todos.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/views/usuarios/mostrar-todos.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +79,7 @@
       <workItem from="1572973844468" duration="49000" />
       <workItem from="1572974611506" duration="83000" />
       <workItem from="1572974708045" duration="52000" />
-      <workItem from="1574064566847" duration="3752000" />
+      <workItem from="1574064566847" duration="5169000" />
     </task>
     <servers />
   </component>
