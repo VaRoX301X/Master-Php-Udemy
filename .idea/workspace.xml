@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3f7fbac-6fd7-47b3-89f7-f29752dbc09d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/controllers/NotaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/controllers/NotaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/controllers/UsuarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/controllers/UsuarioController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/models/ModeloBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/models/ModeloBase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/models/nota.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/models/nota.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/views/nota/listar.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/views/nota/listar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aprendiendo-php-mvc/views/usuarios/mostrar-todos.php" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-php-mvc/views/usuarios/mostrar-todos.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +25,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/PRACTICAS/OPE_Ofi/OPE_Web-master/OPE_Web-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,6 +75,11 @@
       <workItem from="1572974611506" duration="83000" />
       <workItem from="1572974708045" duration="52000" />
       <workItem from="1574064566847" duration="5169000" />
+      <workItem from="1574673849065" duration="629000" />
+      <workItem from="1574784357416" duration="31000" />
+      <workItem from="1574792187574" duration="665000" />
+      <workItem from="1576487662290" duration="43000" />
+      <workItem from="1576493085812" duration="1330000" />
     </task>
     <servers />
   </component>
