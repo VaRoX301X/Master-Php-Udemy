@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3f7fbac-6fd7-47b3-89f7-f29752dbc09d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprendiendo-librerias-php/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-librerias-php/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprendiendo-librerias-php/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-librerias-php/composer.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,7 @@
       <workItem from="1574784357416" duration="31000" />
       <workItem from="1574792187574" duration="665000" />
       <workItem from="1576487662290" duration="43000" />
-      <workItem from="1576493085812" duration="1330000" />
+      <workItem from="1576493085812" duration="3621000" />
     </task>
     <servers />
   </component>
