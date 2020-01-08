@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3f7fbac-6fd7-47b3-89f7-f29752dbc09d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/master-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/master-php.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aprendiendo-librerias-php/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-librerias-php/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aprendiendo-librerias-php/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/aprendiendo-librerias-php/composer.lock" afterDir="false" />
@@ -12,13 +13,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/aprendiendo-librerias-php/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/aprendiendo-librerias-php/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/aprendiendo-librerias-php/vendor/composer" />
+      <path value="$PROJECT_DIR$/aprendiendo-librerias-php/vendor/spipu/html2pdf" />
+      <path value="$PROJECT_DIR$/aprendiendo-librerias-php/vendor/stefangabos/zebra_pagination" />
+      <path value="$PROJECT_DIR$/aprendiendo-librerias-php/vendor/masterexploder/phpthumb" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1Ssgv4ZNAYTgxCLRqaVlRd7SMNj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -37,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\masterPHP\aprendiendo-librerias-php\manipular-imagenes" />
       <recent name="C:\wamp64\www\masterPHP\aprendiendo-php-poo\12-autoload\clases\MisClases" />
       <recent name="C:\wamp64\www\masterPHP\aprendiendo-php-poo\12-autoload\clases" />
     </key>
@@ -80,7 +92,8 @@
       <workItem from="1574784357416" duration="31000" />
       <workItem from="1574792187574" duration="665000" />
       <workItem from="1576487662290" duration="43000" />
-      <workItem from="1576493085812" duration="3621000" />
+      <workItem from="1576493085812" duration="3707000" />
+      <workItem from="1578473691446" duration="1530000" />
     </task>
     <servers />
   </component>
