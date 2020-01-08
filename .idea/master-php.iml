@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/aprendiendo-librerias-php/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/aprendiendo-librerias-php/vendor/firephp/firephp-core" />
       <excludeFolder url="file://$MODULE_DIR$/aprendiendo-librerias-php/vendor/masterexploder/phpthumb" />
       <excludeFolder url="file://$MODULE_DIR$/aprendiendo-librerias-php/vendor/spipu/html2pdf" />
       <excludeFolder url="file://$MODULE_DIR$/aprendiendo-librerias-php/vendor/stefangabos/zebra_pagination" />
